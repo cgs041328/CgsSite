@@ -4,9 +4,8 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Lato',sans-serif;
     color: black;
-    background-color:white;
+    background-color:#fcfcfc;
 }
 
 html {
@@ -21,7 +20,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -57,7 +56,7 @@ a {
     margin-bottom: 0;
     border-bottom: 1px solid fade(white, 30%);
 
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Lato', Montserrat, 'FontAwesome',sans-serif;
     background-color: black;
     .navbar-brand {
         font-weight: 700;
@@ -196,44 +195,7 @@ a {
         }
     }
 }
-.btn-circleanother {
-    width: 90px;
-    height: 90px;
-    margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid black;
-    border-radius: 100% !important;
-    font-size: 40px;
-    color: black;
-    background: transparent;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-    &:hover,
-    &:focus {
-        outline: none;
-        color: black;
- 
-    }
-    i.animated {
-        -webkit-transition-property: -webkit-transform;
-        -webkit-transition-duration: 1s;
-        -moz-transition-property: -moz-transform;
-        -moz-transition-duration: 1s;
-    }
-    &:hover {
-        i.animated {
-            -webkit-animation-name: pulse;
-            -moz-animation-name: pulse;
-            -webkit-animation-duration: 1.5s;
-            -moz-animation-duration: 1.5s;
-            -webkit-animation-iteration-count: infinite;
-            -moz-animation-iteration-count: infinite;
-            -webkit-animation-timing-function: linear;
-            -moz-animation-timing-function: linear;
-        }
-    }
-    }
+
 
 
 @-webkit-keyframes pulse {    
@@ -271,11 +233,21 @@ a {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding: 100px;
+    height:100%;
 }
 
-
-
+.contact-section{
+    padding-top:70px;
+    height:40%;
+    vertical-align:middle;
+}
+.contact-box{
+    padding:20px;
+}
+.link-box{
+    padding:30px;
+}
 #map {
     width: 100%;
     height: 200px;
@@ -297,28 +269,8 @@ a {
     }
 }
 
-.btn {
-    text-transform: uppercase;
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    border-radius: 0;
-}
 
-.btn-default {
-    border: 1px solid @primary;
-    color: @primary;
-    background-color: transparent;
-    &:hover,
-    &:focus {
-        border: 1px solid @afterhover;
-        outline: none;
-        color: white;
-        background-color: @afterhover;
-    }
-}
+
 
 ul.banner-social-buttons {
     margin-top: 0;
