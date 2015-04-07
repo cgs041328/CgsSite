@@ -1,0 +1,4 @@
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\Cgssite.Queryservices\bin\Debug\Cgssite.Queryservices.dll
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\Cgssite.Queryservices\bin\Debug\Cgssite.Queryservices.pdb
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\Cgssite.Queryservices\obj\Debug\Cgssite.Queryservices.dll
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\Cgssite.Queryservices\obj\Debug\Cgssite.Queryservices.pdb

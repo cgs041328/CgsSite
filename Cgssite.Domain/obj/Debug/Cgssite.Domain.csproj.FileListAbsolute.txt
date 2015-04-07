@@ -1,0 +1,9 @@
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\cgssite.Domain\bin\Debug\cgssite.Domain.dll
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\cgssite.Domain\bin\Debug\cgssite.Domain.pdb
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\cgssite.Domain\obj\Debug\cgssite.Domain.dll
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\cgssite.Domain\obj\Debug\cgssite.Domain.pdb
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\cgssite.Domain\obj\Debug\cgssite.Domain.csprojResolveAssemblyReference.cache
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\cgssite.Domain\bin\Debug\Cgssite.Domain.dll
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\cgssite.Domain\bin\Debug\Cgssite.Domain.pdb
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\cgssite.Domain\obj\Debug\Cgssite.Domain.dll
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\cgssite.Domain\obj\Debug\Cgssite.Domain.pdb

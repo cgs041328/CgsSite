@@ -1,0 +1,12 @@
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\cgssite.Infrastructure\bin\Debug\cgssite.Infrastructure.dll
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\cgssite.Infrastructure\bin\Debug\cgssite.Infrastructure.pdb
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\cgssite.Infrastructure\obj\Debug\cgssite.Infrastructure.dll
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\cgssite.Infrastructure\obj\Debug\cgssite.Infrastructure.pdb
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\cgssite.Infrastructure\obj\Debug\cgssite.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\cgssite.Infrastructure\bin\Debug\cgssite.Infrastructure.dll
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\cgssite.Infrastructure\bin\Debug\cgssite.Infrastructure.pdb
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\cgssite.Infrastructure\bin\Debug\cgssite.Domain.dll
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\cgssite.Infrastructure\bin\Debug\cgssite.Domain.pdb
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\cgssite.Infrastructure\obj\Debug\cgssite.Infrastructure.dll
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\cgssite.Infrastructure\obj\Debug\cgssite.Infrastructure.pdb
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\cgssite.Infrastructure\obj\Debug\Cgssite.Infrastructure.csprojResolveAssemblyReference.cache
