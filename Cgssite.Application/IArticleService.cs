@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Cgssite.Infrastructure;
 
 namespace Cgssite.Application
 {
@@ -12,7 +13,7 @@ namespace Cgssite.Application
        /// 获取所有文章
        /// </summary>
        /// <returns></returns>
-        IEnumerable<Article> GetAllArticles();
+        IEnumerable<Article> GetAllArticles(Paging paging);
        /// <summary>
        /// 根据ID获取文章
        /// </summary>
@@ -34,5 +35,10 @@ namespace Cgssite.Application
        /// <param name="body"></param>
        /// <returns></returns>
        bool EditArticle(Guid id, string subject, string body);
+       /// <summary>
+       /// 获取文章总数
+       /// </summary>
+       /// <returns></returns>
+       int GetArticleCounts();
     }
 }

@@ -11,7 +11,11 @@ namespace Cgssite.Domain.Enities
         /// <summary>
         /// 获取当前领域实体类的全局唯一标识。
         /// </summary>
-        public Guid Id{get;protected set;}
+       virtual public Guid Id{get;private set;}
+       public AggregateRoot()
+       {
+           this.Id = Guid.NewGuid();
+       }
         /// <summary>
         /// 确定指定的Object是否等于当前的Object。
         /// </summary>
@@ -19,10 +23,6 @@ namespace Cgssite.Domain.Enities
         /// <returns>如果指定的Object与当前Object相等，则返回true，否则返回false。</returns>
         /// <remarks>有关此函数的更多信息，请参见：http://msdn.microsoft.com/zh-cn/library/system.object.equals。
         /// </remarks>
-        public AggregateRoot()
-        {
-            this.Id = new Guid();
-        }
         public override bool Equals(object obj)
         {
             if (obj == null)

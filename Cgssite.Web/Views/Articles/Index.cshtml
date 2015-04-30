@@ -1,7 +1,25 @@
-﻿
+﻿@model IEnumerable<Cgssite.Web.Models.ListArticleModel>
 @{
     ViewBag.Title = "Article";
 }
-
-<h2>Another Brick In The Wall</h2>
-
+@foreach (var model in Model)
+{
+    <h2>
+        @Html.ActionLink(model.Subject, "Detail", new { id = model.Id })
+    </h2>
+    @Html.Partial("ArticleHeader", model)
+}
+<div id="paging">
+    @if (ViewBag.pageIndex > 1)
+    {
+        @Html.ActionLink("上一页", "Index", new { page = ViewBag.pageIndex - 1 });
+        if (ViewBag.nextPage != -1)
+        {
+            <text>|</text>
+        }
+    }
+    @if (ViewBag.nextPage != -1)
+    {
+        @Html.ActionLink("下一页", "Index", new { page = ViewBag.nextPage });
+    }
+</div>

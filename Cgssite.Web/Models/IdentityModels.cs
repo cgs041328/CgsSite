@@ -21,7 +21,7 @@ namespace Cgssite.Web.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("CgsContext", throwIfV1Schema: false)
         {
         }
 

@@ -11,7 +11,7 @@
                     <p class="intro-text">There's no dark side of me really,<br>cuz it's all dark.</p>
                     <br />
                     <br />
-                    <a href="#articles" class="btn btn-circle page-scroll">
+                    <a href="#articles" class="btn btn-circle page-scroll circle">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
                 </div>
@@ -19,15 +19,16 @@
         </div>
     </div>
 </header>
-<section id="articles" class="container content-section text-center">
-    <div class="row">
-        <div class="col-lg-8">
-            <h2>这里放随笔</h2>
+<section id="articles" class="content-section text-center">
+    <div class="article-section">
+        <div class="brick">
+            <a href="@Url.Action("Index","Articles")">
+                <img height="62" width="198" src="~/images/Article/brick.png" />
+            </a>          
+            </div>
         </div>
-        <div class="col-lg-4"><button class="btn-default btn-lg">@Html.ActionLink("more", "Index", "Articles")</button></div>
-    </div>
 </section>
-<section id="hobby" class="container content-section text-center">
+@*<section id="hobby" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8"></div>
         <div class="col-lg-4">
@@ -64,10 +65,10 @@
             <button class="btn-lg btn-default">@Html.ActionLink("此刻的我", "Index", "Now")</button>
         </div>
     </div>
-</section>
+</section>*@
 <section id="contact" class="container contact-section text-center">
     <div class="col-lg-3 text-left ">
-        <address><i class="fa  fa-mobile fa-2x"></i>&nbsp;18813136907</address>
+        <address><i class="fa  fa-mobile fa-2x"></i>&nbsp;18813136897</address>
         <address class="list-unstyled"><i class="fa  fa-qq"></i>&nbsp;124592174</address>
         <address><i class="fa fa-envelope-o"></i>&nbsp;cgs0413328@gmail.com</address>
     </div>

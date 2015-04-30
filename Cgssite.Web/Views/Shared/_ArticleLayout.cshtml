@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - The dark side of cgs</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/site")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        body {
+            padding-top: 100px;
+        }
+
+        footer {
+            background-color: #fcfcfc;
+        }
+
+        .manage a {
+            color: #fcfcfc;
+        }
+    </style>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-another navbar-fixed-top" role="navigation" id="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("The dark side of cgs", "Index", "Home", new { area = "" }, new { @class = "navbar-brand page-scroll" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("写字的地方", "Index", "Articles", null, new { @class = "page-scroll" })</li>
+                    @*<li class="dropdown">
+                            <a href="@Url.Action("#page-top")" class="dropdown-toggle" data-toggle="dropdown">存在的证据</a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>@Html.ActionLink("纸做的墙", "Index", "Books")</li>
+                                <li>@Html.ActionLink("浮光掠影", "Index", "Movies")</li>
+                                <li>@Html.ActionLink("雁过留声", "Index", "Music")</li>
+                                <li>@Html.ActionLink("另一场人生", "Index", "Games")</li>
+                            </ul>
+
+                        </li>*@
+                    @*<li>@Html.ActionLink("走过的路", "Index", "Footprint", null, new { @class = "page-scroll" })</li>
+                        <li>@Html.ActionLink("此刻的我", "Index", "Now", null, new { @class = "page-scroll" })</li>*@
+                    <li>@Html.ActionLink("在这里找到我", "Index", "Contact", null, new { @class = "page-scroll" })</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    @*<ul class="breadcrumb hidden-print">@Html.MvcSiteMap().SiteMapPath()</ul>*@
+    <div class="container">
+        <div class="row text-center">
+            <h2>Another Brick In The Wall</h2>
+            <hr />
+        </div> 
+        <div class="row">
+            <div class="col-md-9">
+                @RenderBody()
+            </div>
+            <div class="col-md-3">
+
+            </div>
+        </div>
+    </div>
+    <footer class="text-center container">
+        <hr />
+        <p>&copy; @DateTime.Now.Year - The dark side of cgs</p>
+        <div class="manage"> @{Html.RenderPartial("_LogonPartial");}</div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+

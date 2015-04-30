@@ -10,9 +10,9 @@ namespace Cgssite.Domain
 {
     public static class AggregateRootFactory
     {
-        public static Article CreateArticle(string subject, string body,IArticleRespository articleresponsitory)
+        public static Article CreateArticle(string subject, string body, IArticleRespository articlerespository)
         {
-            return new Article(subject, body, articleresponsitory);
+            return new Article(subject, body,articlerespository);
         }
     }
 }

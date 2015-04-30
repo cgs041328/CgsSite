@@ -9,9 +9,10 @@ namespace Cgssite.Domain.IResPositories
 {
     public interface IArticleRespository
     {
-        IEnumerable<Article> GetAllArticles();
+        IEnumerable<Article> GetAllArticles(int pageIndex,int pageSize);
         Article GetArticleById(Guid id);
          void CreateArticle(Article article);
          void EditArticle(Article article);
+         int GetArticleCounts();
     }
 }

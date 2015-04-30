@@ -6,11 +6,15 @@ C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\cgssite.Application\ob
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\cgssite.Application\bin\Debug\cgssite.Domain.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\cgssite.Application\bin\Debug\EmitMapper.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\cgssite.Application\bin\Debug\cgssite.Domain.pdb
-C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Application\obj\Debug\Cgssite.Application.csprojResolveAssemblyReference.cache
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Application\bin\Debug\Cgssite.Application.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Application\bin\Debug\Cgssite.Application.pdb
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Application\bin\Debug\Cgssite.Domain.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Application\bin\Debug\EmitMapper.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Application\bin\Debug\Cgssite.Domain.pdb
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Application\obj\Debug\Cgssite.Application.csprojResolveAssemblyReference.cache
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Application\obj\Debug\Cgssite.Application.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Application\obj\Debug\Cgssite.Application.pdb
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Application\bin\Debug\Cgssite.Infrastructure.dll
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Application\bin\Debug\EntityFramework.dll
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Application\bin\Debug\Cgssite.Infrastructure.pdb
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Application\bin\Debug\EntityFramework.xml

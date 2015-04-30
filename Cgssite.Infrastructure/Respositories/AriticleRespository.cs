@@ -7,26 +7,30 @@ using Cgssite.Domain.Enities;
 
 namespace Cgssite.Infrastructure.Respositories
 {
-    public class AriticleRespository :RespositoryBase<Article>,IArticleRespository
+    public class AriticleRespository : RespositoryBase<Article>, IArticleRespository
     {
-        IEnumerable<Article> GetAllArticles()
+        public IEnumerable<Article> GetAllArticles(int pageIndex, int pageSize)
         {
-            return Get();
+            return db.Set<Article>().OrderByDescending(m => m.CreatedDate).Skip((pageIndex - 1) * pageSize).Take(pageSize);
         }
 
-        Article GetArticleById(Guid id)
+        public Article GetArticleById(Guid id)
         {
             return Get(id);
         }
 
-        void CreateArticle(Article article)
+        public void CreateArticle(Article article)
         {
-            Create();
+            Create(article);
         }
 
-        void EditArticle(Article article)
+        public void EditArticle(Article article)
         {
-            Update();
+            Update(article);
+        }
+        public int GetArticleCounts()
+        {
+           return db.Set<Article>().Count();
         }
     }
 }

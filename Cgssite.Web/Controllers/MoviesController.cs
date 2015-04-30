@@ -12,27 +12,26 @@ namespace Cgssite.Web.Controllers
 {
     public class MoviesController : Controller
     {
-        private MovieDBContext db = new MovieDBContext();
 
         // GET: Movies
         public ActionResult Index(string movieGenre, string searchString)
         {
             var GenreLst = new List<string>();
-            var GenreQry = from d in db.Movies
-                orderby d.Genre
-                select d.Genre;
-            GenreLst.AddRange(GenreQry.Distinct());
-            ViewBag.movieGenre=new SelectList(GenreLst);
-            var movies = db.Movies.Select(s=>s);
-            if (!String.IsNullOrEmpty(searchString))
-            {
-                movies = movies.Where(s => s.Title.Contains(searchString));
-            }
-            if (!String.IsNullOrEmpty(movieGenre))
-            {
-                movies = movies.Where(s => s.Genre==movieGenre);
-            }
-            return View(movies);
+            //var GenreQry = from d in db.Movies
+            //    orderby d.Genre
+            //    select d.Genre;
+            //GenreLst.AddRange(GenreQry.Distinct());
+            //ViewBag.movieGenre=new SelectList(GenreLst);
+            //var movies = db.Movies.Select(s=>s);
+            //if (!String.IsNullOrEmpty(searchString))
+            //{
+            //    movies = movies.Where(s => s.Title.Contains(searchString));
+            //}
+            //if (!String.IsNullOrEmpty(movieGenre))
+            //{
+            //    movies = movies.Where(s => s.Genre==movieGenre);
+            //}
+            return View();
         }
 
         // GET: Movies/Details/5
@@ -42,12 +41,12 @@ namespace Cgssite.Web.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Movie movie = db.Movies.Find(id);
-            if (movie == null)
-            {
-                return HttpNotFound();
-            }
-            return View(movie);
+            //Movie movie = db.Movies.Find(id);
+            //if (movie == null)
+            //{
+            //    return HttpNotFound();
+            //}
+            return View();
         }
 
         // GET: Movies/Create
@@ -65,12 +64,12 @@ namespace Cgssite.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Movies.Add(movie);
-                db.SaveChanges();
+                //db.Movies.Add(movie);
+                //db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            return View(movie);
+            return View();
         }
 
         // GET: Movies/Edit/5
@@ -80,12 +79,12 @@ namespace Cgssite.Web.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Movie movie = db.Movies.Find(id);
-            if (movie == null)
-            {
-                return HttpNotFound();
-            }
-            return View(movie);
+            //Movie movie = db.Movies.Find(id);
+            //if (movie == null)
+            //{
+            //    return HttpNotFound();
+            //}
+            return View();
         }
 
         // POST: Movies/Edit/5
@@ -95,13 +94,13 @@ namespace Cgssite.Web.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "ID,Title,Genre,ReleaseDate,Price,Rating")] Movie movie)
         {
-            if (ModelState.IsValid)
-            {
-                db.Entry(movie).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            return View(movie);
+            //if (ModelState.IsValid)
+            //{
+            //    db.Entry(movie).State = EntityState.Modified;
+            //    db.SaveChanges();
+            //    return RedirectToAction("Index");
+            //}
+            return View();
         }
 
         // GET: Movies/Delete/5
@@ -111,12 +110,12 @@ namespace Cgssite.Web.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Movie movie = db.Movies.Find(id);
-            if (movie == null)
-            {
-                return HttpNotFound();
-            }
-            return View(movie);
+            //Movie movie = db.Movies.Find(id);
+            //if (movie == null)
+            //{
+            //    return HttpNotFound();
+            //}
+            return View();
         }
 
         // POST: Movies/Delete/5
@@ -124,18 +123,18 @@ namespace Cgssite.Web.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
         {
-            Movie movie = db.Movies.Find(id);
-            db.Movies.Remove(movie);
-            db.SaveChanges();
+            //Movie movie = db.Movies.Find(id);
+            //db.Movies.Remove(movie);
+            //db.SaveChanges();
             return RedirectToAction("Index");
         }
 
         protected override void Dispose(bool disposing)
         {
-            if (disposing)
-            {
-                db.Dispose();
-            }
+            //if (disposing)
+            //{
+            //    db.Dispose();
+            //}
             base.Dispose(disposing);
         }
     }

@@ -53,6 +53,10 @@
       <Project>{eced9b83-8a5b-4a58-ba54-0aeeaa6ce35f}</Project>
       <Name>Cgssite.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\cgssite.Infrastructure\Cgssite.Infrastructure.csproj">
+      <Project>{5e768e0f-08cc-40c4-8571-37f406301e42}</Project>
+      <Name>Cgssite.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

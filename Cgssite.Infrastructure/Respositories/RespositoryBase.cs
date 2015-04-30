@@ -6,9 +6,9 @@ using System.Data.Entity;
 
 namespace Cgssite.Infrastructure.Respositories
 {
-    public class RespositoryBase<TEntity>:IDisposable where TEntity:class
+    public class RespositoryBase<TEntity> where TEntity : class
     {
-        protected CgsContext db;
+        protected CgsContext db = new CgsContext();
         public IEnumerable<TEntity> Get()
         {
             return db.Set<TEntity>().ToList();
@@ -24,7 +24,7 @@ namespace Cgssite.Infrastructure.Respositories
         }
         public void Update(TEntity entity)
         {
-            db.Entry<TEntity>().State = EntityState.Modified;
+            db.Entry<TEntity>(entity).State = EntityState.Modified;
             db.SaveChanges();
         }
         public void Delete(TEntity entity)
@@ -32,9 +32,9 @@ namespace Cgssite.Infrastructure.Respositories
             db.Set<TEntity>().Remove(entity);
             db.SaveChanges();
         }
-        public void Dipose()
-        {
-            db.Dispose();
-        }
+        //public void Dispose()
+        //{
+        //    db.Dispose();
+        //}
     }
 }

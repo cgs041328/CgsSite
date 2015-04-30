@@ -24,14 +24,16 @@ namespace Cgssite.Web
                       "~/Scripts/respond.js",
                       "~/Scripts/jquery.easing.min.js",
                       "~/Scripts/Site.js"));
-
+            bundles.Add(new ScriptBundle("~/Content/tinymce").Include(
+                      "~/Scripts/tinymce/tinymce.min.js",
+                      "~/Scripts/tinymce/jquery.tinymce.min.js"));
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      //"~/Content/site.css",
-                      "~/Content/Site.css",
+                //"~/Content/site.css",
                       "~/Content/font-awesome.min.css"));
-            bundles.Add(new StyleBundle("~/Content/article").Include(
-                "~/Content/Article.css"));
+            bundles.Add(new StyleBundle("~/Content/site").Include(
+                                      "~/Content/Site.css",
+                                      "~/Content/Validate.css"));
         }
     }
 }

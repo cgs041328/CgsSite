@@ -64,11 +64,6 @@ C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\cgsmvc\obj\Debug\cgssi
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\cgsmvc\bin\cgssite.Application.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\cgsmvc\bin\EmitMapper.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\cgsmvc\cgsmvc\bin\cgssite.Application.pdb
-C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\obj\Debug\Cgssite.Web.Migrations.Initial.resources
-C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\obj\Debug\Cgssite.Web.Migrations.Rating.resources
-C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\obj\Debug\Cgssite.Web.Migrations.Anno.resources
-C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\obj\Debug\Cgssite.Web.csproj.GenerateResource.Cache
-C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\obj\Debug\Cgssite.Web.csprojResolveAssemblyReference.cache
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Cgssite.Web.dll.config
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Cgssite.Web.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Cgssite.Web.pdb
@@ -76,6 +71,8 @@ C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Antlr
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Autofac.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Autofac.Integration.Mvc.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Cgssite.Application.dll
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Cgssite.Domain.dll
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Cgssite.Infrastructure.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\EmitMapper.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\EntityFramework.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\EntityFramework.SqlServer.dll
@@ -92,6 +89,7 @@ C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Micro
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Microsoft.Owin.Security.OAuth.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Microsoft.Owin.Security.Twitter.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\MvcSiteMapProvider.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Newtonsoft.Json.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Owin.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\System.Web.Helpers.dll
@@ -101,11 +99,14 @@ C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Syste
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\System.Web.WebPages.Deployment.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\System.Web.WebPages.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\WebActivatorEx.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\WebGrease.dll
-C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Cgssite.Domain.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Cgssite.Application.pdb
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Cgssite.Domain.pdb
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Cgssite.Infrastructure.pdb
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Autofac.xml
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Autofac.Integration.Mvc.xml
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\MvcSiteMapProvider.xml
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\System.Web.Helpers.xml
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\System.Web.Mvc.xml
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\System.Web.Optimization.xml
@@ -129,6 +130,6 @@ C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Micro
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\bin\Cgssite.Domain.pdb
+C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\obj\Debug\Cgssite.Web.csprojResolveAssemblyReference.cache
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\obj\Debug\Cgssite.Web.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Web\obj\Debug\Cgssite.Web.pdb
