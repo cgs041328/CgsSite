@@ -18,3 +18,15 @@ C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Application\b
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Application\bin\Debug\EntityFramework.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Application\bin\Debug\Cgssite.Infrastructure.pdb
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.Application\bin\Debug\EntityFramework.xml
+E:\Program Files\cgssite\Cgssite.Application\bin\Debug\Cgssite.Application.dll
+E:\Program Files\cgssite\Cgssite.Application\bin\Debug\Cgssite.Application.pdb
+E:\Program Files\cgssite\Cgssite.Application\bin\Debug\Cgssite.Domain.dll
+E:\Program Files\cgssite\Cgssite.Application\bin\Debug\Cgssite.Infrastructure.dll
+E:\Program Files\cgssite\Cgssite.Application\bin\Debug\EmitMapper.dll
+E:\Program Files\cgssite\Cgssite.Application\bin\Debug\EntityFramework.dll
+E:\Program Files\cgssite\Cgssite.Application\bin\Debug\Cgssite.Domain.pdb
+E:\Program Files\cgssite\Cgssite.Application\bin\Debug\Cgssite.Infrastructure.pdb
+E:\Program Files\cgssite\Cgssite.Application\bin\Debug\EntityFramework.xml
+E:\Program Files\cgssite\Cgssite.Application\obj\Debug\Cgssite.Application.csprojResolveAssemblyReference.cache
+E:\Program Files\cgssite\Cgssite.Application\obj\Debug\Cgssite.Application.dll
+E:\Program Files\cgssite\Cgssite.Application\obj\Debug\Cgssite.Application.pdb

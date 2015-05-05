@@ -8,6 +8,8 @@ using EmitMapper;
 using Cgssite.Application.DTO;
 using Cgssite.Web.Models;
 using Cgssite.Infrastructure;
+using MvcSiteMapProvider.Web.Mvc.Filters;
+using MvcSiteMapProvider;
 
 namespace Cgssite.Web.Controllers
 {
@@ -24,46 +26,28 @@ namespace Cgssite.Web.Controllers
         public ActionResult Index(int page = 1)
         {
             int totalCount = _articleservice.GetArticleCounts();
-            Paging paging = new Paging(totalCount,page,pageSize);
+            Paging paging = new Paging(totalCount, page, pageSize);
             var result = _articleservice.GetAllArticles(paging);
             var model = new List<ListArticleModel>();
             ViewBag.pageIndex = paging.PageIndex;
             ViewBag.nextPage = paging.NextPage;
             foreach (var article in result)
             {
+                article.Body = article.Body.Abstract(250);
                 model.Add(listmapper.Map(article));
             }
             return View(model);
         }
+        //[SiteMapTitle("CreatedDate")]
         public ActionResult Detail(Guid id)
         {
             var result = _articleservice.GetArticleById(id);
+            var node = SiteMaps.Current.CurrentNode;
+            if (node != null)
+            {
+                node.Title = result.Subject;
+            }
             return View(listmapper.Map(result));
         }
-        //[Authorize]
-        //public ActionResult Create()
-        //{
-        //    return View();
-        //}
-        //[HttpPost]
-        //[Authorize]
-        //public ActionResult Create(string subject, string body)
-        //{
-        //  if(ModelState.IsValid ? _articleservice.CreatArticle(subject, body):false) 
-        //  {
-        //      return View("Index");
-        //  }
-        //    else {return View();}
-        //}
-        //[Authorize]
-        //public ActionResult Edit(Guid id)
-        //{
-        //    return View("Index");
-        //}
-        //[Authorize]
-        //public ActionResult Remove(Guid id)
-        //{
-        //    return View("Index");
-        //}
     }
 }

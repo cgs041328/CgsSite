@@ -1,16 +1,19 @@
 ﻿@model Cgssite.Web.Models.ListArticleModel
 <p>
     <i class="glyphicon glyphicon-calendar"></i><time>@Model.CreatedDate.ToShortDateString()</time>
-    <text>
-        &nbsp;
-        &nbsp;
-    </text>
-    <i class="glyphicon glyphicon-edit"></i>
-    <a href="@Url.Action("EditArticle", "Admin", new { id = Model.Id })" title="编辑">编辑</a>
-    <text>
-        &nbsp;
-        &nbsp;
-    </text>
-    <i class="glyphicon glyphicon-remove-circle"></i>
-    <a href="@Url.Action("Remove", "Admin", new { id=Model.Id})" title="删除" onclick="if (!confirm('确定删除？')) { return false;}">删除</a>
+    @if (Request.IsAuthenticated)
+    {
+        <text>
+            &nbsp;
+            &nbsp;
+        </text>
+        <i class="glyphicon glyphicon-edit"></i>
+        <a href="@Url.Action("EditArticle", "Admin", new { id = Model.Id })" title="编辑">编辑</a>
+        <text>
+            &nbsp;
+            &nbsp;
+        </text>
+        <i class="glyphicon glyphicon-remove-circle"></i>
+        <a href="@Url.Action("Remove", "Admin", new { id=Model.Id})" title="删除" onclick="if (!confirm('确定删除？')) { return false;}">删除</a>
+    }
 </p>

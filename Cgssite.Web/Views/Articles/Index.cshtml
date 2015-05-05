@@ -8,6 +8,7 @@
         @Html.ActionLink(model.Subject, "Detail", new { id = model.Id })
     </h2>
     @Html.Partial("ArticleHeader", model)
+    <p>@Html.Raw(model.Body) @Html.ActionLink("阅读全文", "Detail", new { id = model.Id })</p>
 }
 <div id="paging">
     @if (ViewBag.pageIndex > 1)

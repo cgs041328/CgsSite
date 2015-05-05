@@ -10,7 +10,7 @@ using Cgssite.Web.Models;
 
 namespace Cgssite.Web.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class AdminController : Controller
     {
         private readonly IArticleService _articleservice;

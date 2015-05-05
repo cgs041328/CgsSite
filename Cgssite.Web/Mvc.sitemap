@@ -3,8 +3,16 @@
             xmlns="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-4.0"
             xsi:schemaLocation="http://mvcsitemap.codeplex.com/schemas/MvcSiteMap-File-4.0 MvcSiteMapSchema.xsd">
 
-  <mvcSiteMapNode title="Home" controller="Home" action="Index">
-    <mvcSiteMapNode title="About" controller="Home" action="About"/>
+  <mvcSiteMapNode title="主页" controller="Home" action="Index">
+    <mvcSiteMapNode title="另一块砖" controller="Articles" action="Index">
+      <mvcSiteMapNode title=" " controller="Articles" action="Detail" preservedRouteParameters="id"/>
+    </mvcSiteMapNode>
+    <mvcSiteMapNode title="后台管理" controller="Admin" action="Index">
+      <mvcSiteMapNode title="修改文章" controller="Admin" action="EditArticle" preservedRouteParameters="id"/>
+      <mvcSiteMapNode title="发表文章" controller="Admin" action="CreateArticle" />
+      <mvcSiteMapNode title="数据统计" controller="Admin" action="Statistics" />
+    </mvcSiteMapNode>
+    <mvcSiteMapNode title="登录" controller="Account" action="Login"/>
   </mvcSiteMapNode>
 
 </mvcSiteMap>

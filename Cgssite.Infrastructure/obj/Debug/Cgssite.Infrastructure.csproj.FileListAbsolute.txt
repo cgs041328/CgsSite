@@ -15,3 +15,15 @@ C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\cgssite.Infrastructur
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\cgssite.Infrastructure\obj\Debug\Cgssite.Infrastructure.csprojResolveAssemblyReference.cache
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\cgssite.Infrastructure\obj\Debug\Cgssite.Infrastructure.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\cgssite.Infrastructure\obj\Debug\Cgssite.Infrastructure.pdb
+E:\Program Files\cgssite\cgssite.Infrastructure\bin\Debug\Cgssite.Infrastructure.dll.config
+E:\Program Files\cgssite\cgssite.Infrastructure\bin\Debug\Cgssite.Infrastructure.dll
+E:\Program Files\cgssite\cgssite.Infrastructure\bin\Debug\Cgssite.Infrastructure.pdb
+E:\Program Files\cgssite\cgssite.Infrastructure\bin\Debug\Cgssite.Domain.dll
+E:\Program Files\cgssite\cgssite.Infrastructure\bin\Debug\EntityFramework.dll
+E:\Program Files\cgssite\cgssite.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+E:\Program Files\cgssite\cgssite.Infrastructure\bin\Debug\Cgssite.Domain.pdb
+E:\Program Files\cgssite\cgssite.Infrastructure\bin\Debug\EntityFramework.xml
+E:\Program Files\cgssite\cgssite.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+E:\Program Files\cgssite\cgssite.Infrastructure\obj\Debug\Cgssite.Infrastructure.csprojResolveAssemblyReference.cache
+E:\Program Files\cgssite\cgssite.Infrastructure\obj\Debug\Cgssite.Infrastructure.dll
+E:\Program Files\cgssite\cgssite.Infrastructure\obj\Debug\Cgssite.Infrastructure.pdb

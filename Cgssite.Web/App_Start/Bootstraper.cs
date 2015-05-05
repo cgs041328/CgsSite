@@ -5,6 +5,7 @@ using System.Reflection;
 using Cgssite.Application;
 using Cgssite.Domain;
 using Cgssite.Infrastructure.Respositories;
+using Cgssite.Web.Services;
 
 namespace Cgssite.Web
 {
@@ -23,6 +24,7 @@ namespace Cgssite.Web
                 .AsImplementedInterfaces().InstancePerHttpRequest();
             builder.RegisterAssemblyTypes(typeof(AriticleRespository).Assembly).Where(t => t.Name.EndsWith("Respository"))
                  .AsImplementedInterfaces().InstancePerHttpRequest();
+            builder.RegisterType<AuthenticationService>().As<IAuthenticationService>();
             builder.RegisterFilterProvider();
             IContainer container = builder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
