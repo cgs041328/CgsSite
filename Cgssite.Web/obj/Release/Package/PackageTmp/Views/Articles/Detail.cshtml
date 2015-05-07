@@ -1,0 +1,22 @@
+﻿@using Cgssite.Web.Models;
+@model ListArticleModel
+@{
+    ViewBag.Title = Model.Subject;
+}
+<div>
+    <div class="article-title">
+        <h2>@Model.Subject</h2>
+    </div>
+    <div class="article-header">
+        @{
+
+           Html.RenderPartial("ArticleHeader",Model);
+        }
+        <hr />
+    </div>
+    <article>
+        @Html.Raw(Model.Body)
+    </article>
+</div>
+
+

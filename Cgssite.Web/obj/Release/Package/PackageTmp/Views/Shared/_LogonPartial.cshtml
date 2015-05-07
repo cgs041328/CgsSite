@@ -1,0 +1,11 @@
+﻿@if (Request.IsAuthenticated)
+{
+    @Html.ActionLink("后台管理","Index","Admin")
+    <text>|</text>
+    @Html.ActionLink("注销","Logout","Account")
+}
+else
+{
+    @Html.ActionLink("登录","Login","Account")
+}
+

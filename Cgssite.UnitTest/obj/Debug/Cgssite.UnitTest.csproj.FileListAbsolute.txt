@@ -44,3 +44,39 @@ C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.UnitTest\bin\
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.UnitTest\obj\Debug\Cgssite.UnitTest.csprojResolveAssemblyReference.cache
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.UnitTest\obj\Debug\Cgssite.UnitTest.dll
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\Cgssite.UnitTest\obj\Debug\Cgssite.UnitTest.pdb
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\Cgssite.UnitTest.dll.config
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\Cgssite.UnitTest.dll
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\Cgssite.UnitTest.pdb
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\Cgssite.Application.dll
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\Cgssite.Domain.dll
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\Cgssite.Infrastructure.dll
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\Cgssite.Web.dll
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\EmitMapper.dll
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\EntityFramework.dll
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\System.Web.Mvc.dll
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\Autofac.dll
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\System.Web.Optimization.dll
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\WebActivatorEx.dll
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\Autofac.Integration.Mvc.dll
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\MvcSiteMapProvider.dll
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\System.Web.Razor.dll
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\System.Web.WebPages.dll
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\Cgssite.Application.pdb
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\Cgssite.Domain.pdb
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\Cgssite.Infrastructure.pdb
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\Cgssite.Web.pdb
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\EntityFramework.xml
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\System.Web.Mvc.xml
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\Autofac.xml
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\System.Web.Optimization.xml
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\Autofac.Integration.Mvc.xml
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\MvcSiteMapProvider.xml
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\System.Web.Razor.xml
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\System.Web.WebPages.xml
+E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Program Files\cgssite\Cgssite.UnitTest\obj\Debug\Cgssite.UnitTest.csprojResolveAssemblyReference.cache
+E:\Program Files\cgssite\Cgssite.UnitTest\obj\Debug\Cgssite.UnitTest.dll
+E:\Program Files\cgssite\Cgssite.UnitTest\obj\Debug\Cgssite.UnitTest.pdb

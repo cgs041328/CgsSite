@@ -193,7 +193,6 @@
     <Content Include="images\Article\thewall.jpg" />
     <Content Include="images\bg-1.jpg" />
     <Content Include="images\bg-2.jpg" />
-    <Content Include="images\bg-3.jpg" />
     <Content Include="images\Contact\bilibili.jpg" />
     <Content Include="images\Contact\cnblog.jpg" />
     <Content Include="images\Contact\douban.jpg" />
@@ -233,6 +232,7 @@
     <None Include="MvcSiteMapSchema.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Properties\PublishProfiles\cgssite.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\Site.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

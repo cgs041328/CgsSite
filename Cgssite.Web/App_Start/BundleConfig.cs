@@ -20,15 +20,14 @@ namespace Cgssite.Web
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js",
+                      "~/Scripts/bootstrap.min.js",
+                      "~/Scripts/respond.min.js",
                       "~/Scripts/jquery.easing.min.js",
                       "~/Scripts/Site.js"));
             bundles.Add(new ScriptBundle("~/Content/tinymce").Include(
-                      "~/Scripts/tinymce/tinymce.min.js",
-                      "~/Scripts/tinymce/jquery.tinymce.min.js"));
+                      "~/Scripts/tinymce/tinymce.min.js"));
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/bootstrap.min.css",
                 //"~/Content/site.css",
                       "~/Content/font-awesome.min.css"));
             bundles.Add(new StyleBundle("~/Content/site").Include(

@@ -13,6 +13,7 @@
       <mvcSiteMapNode title="数据统计" controller="Admin" action="Statistics" />
     </mvcSiteMapNode>
     <mvcSiteMapNode title="登录" controller="Account" action="Login"/>
+    <mvcSiteMapNode title="几块砖" controller="Contact" action="Index"/>
   </mvcSiteMapNode>
 
 </mvcSiteMap>

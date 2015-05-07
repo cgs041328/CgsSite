@@ -1,3 +1,4 @@
+//#define Dependency
 using System;
 using System.Web.Mvc;
 using Cgssite.Web.DI;
@@ -14,8 +15,7 @@ public class DIConfig
 
 
         var container = CompositionRoot.Compose();
-
-#if DependencyResolver
+#if Dependency
 // ************************************************************************************** //
 //  Dependency Resolver
 //

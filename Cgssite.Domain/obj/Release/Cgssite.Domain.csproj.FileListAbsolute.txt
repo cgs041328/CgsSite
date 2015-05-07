@@ -1,0 +1,4 @@
+E:\Program Files\cgssite\cgssite.Domain\bin\Release\Cgssite.Domain.dll
+E:\Program Files\cgssite\cgssite.Domain\bin\Release\Cgssite.Domain.pdb
+E:\Program Files\cgssite\cgssite.Domain\obj\Release\Cgssite.Domain.dll
+E:\Program Files\cgssite\cgssite.Domain\obj\Release\Cgssite.Domain.pdb

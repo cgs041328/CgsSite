@@ -24,7 +24,7 @@ public class CompositionRoot
         builder.RegisterAssemblyTypes(typeof(AriticleRespository).Assembly).Where(t => t.Name.EndsWith("Respository"))
              .AsImplementedInterfaces();
         builder.RegisterType<AuthenticationService>().As<IAuthenticationService>();
-        builder.RegisterFilterProvider();
+        //builder.RegisterFilterProvider();
 // Create the DI container
         var container = builder.Build();
 

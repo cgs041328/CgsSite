@@ -15,7 +15,7 @@ namespace Cgssite.Web.Controllers
 {
     public class ArticlesController : Controller
     {
-        private readonly int pageSize = 1;
+        private readonly int pageSize = 8;
         private readonly IArticleService _articleservice;
         private readonly ObjectsMapper<Article, ListArticleModel> listmapper = ObjectMapperManager.DefaultInstance.GetMapper<Article, ListArticleModel>();
         public ArticlesController(IArticleService articleservice)
