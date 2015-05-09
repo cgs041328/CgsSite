@@ -232,6 +232,8 @@
     <None Include="MvcSiteMapSchema.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Properties\PublishProfiles\cgs - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\cgs - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\cgssite.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\Site.js" />

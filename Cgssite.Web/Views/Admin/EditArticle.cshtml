@@ -1,7 +1,7 @@
 ﻿@model Cgssite.Web.Models.EditArticleModel
 
 @{
-    ViewBag.Title = "编辑";
+    ViewBag.Title = "编辑文章";
 }
 <div class="container" id="pagetop">
     @using (Html.BeginForm())
@@ -24,7 +24,7 @@
     }
 </div>
 @section scripts{
-    @Scripts.Render("~/Content/tinymce")
+    <script type="text/javascript" src="~/Scripts/tinymce/tinymce.min.js"></script>
     <script type="text/javascript" src="~/Scripts/AddOrEditArticle.js"></script>
 }
 

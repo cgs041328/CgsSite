@@ -10,6 +10,6 @@ C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\cgssite.Domain\obj\De
 C:\Users\cgs\Documents\Visual Studio 2013\Projects\Cgssite\cgssite.Domain\obj\Debug\Cgssite.Domain.csprojResolveAssemblyReference.cache
 E:\Program Files\cgssite\cgssite.Domain\bin\Debug\Cgssite.Domain.dll
 E:\Program Files\cgssite\cgssite.Domain\bin\Debug\Cgssite.Domain.pdb
-E:\Program Files\cgssite\cgssite.Domain\obj\Debug\Cgssite.Domain.csprojResolveAssemblyReference.cache
 E:\Program Files\cgssite\cgssite.Domain\obj\Debug\Cgssite.Domain.dll
 E:\Program Files\cgssite\cgssite.Domain\obj\Debug\Cgssite.Domain.pdb
+E:\Program Files\cgssite\cgssite.Domain\obj\Debug\Cgssite.Domain.csprojResolveAssemblyReference.cache

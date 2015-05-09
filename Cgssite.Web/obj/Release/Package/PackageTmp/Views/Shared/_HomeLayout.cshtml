@@ -19,7 +19,7 @@
         }
 
         #articles {
-            background: url(/images/Article/thewall.jpg) center center;
+            background: url(/images/Article/thewall.jpg) center center scroll;
             width: 100%;
             padding: 50px 0;
             color: #fff;
@@ -29,9 +29,10 @@
             background-size: cover;
             -o-background-size: cover;
         }
-        .brick{
-            padding-top:240px;
-            padding-left:819px;
+
+        .brick {
+            padding-top: 240px;
+            padding-left: 819px;
         }
     </style>
 
@@ -49,7 +50,12 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a class="page-scroll" href="#articles">写字的地方</a></li>
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#articles">写字的地方</a>
+                    </li>
                     @*<li class="dropdown">
                             <a href="#hobby" class="dropdown-toggle page-scroll" data-toggle="dropdown">存在的证据</a>
                             <ul class="dropdown-menu" role="menu">
@@ -62,7 +68,9 @@
                         </li>*@
                     @*<li><a class="page-scroll" href="#footprint">走过的路</a></li>
                         <li><a class="page-scroll" href="#now">此时此刻</a></li>*@
-                    <li><a class="page-scroll" href="#contact">在这里找到我</a></li>
+                    <li>
+                        <a class="page-scroll" href="#contact">在这里找到我</a>
+                    </li>
                 </ul>
             </div>
         </div>

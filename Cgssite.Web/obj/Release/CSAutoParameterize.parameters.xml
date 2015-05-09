@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="CgsContext-Web.config Connection String" description="CgsContext 由应用程序在 web.config 中用来访问数据库的连接字符串。" defaultValue="Data Source=.\;Initial Catalog=Cgssite;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\Program\ Files\\cgssite\\Cgssite\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CgsContext']/@connectionString" />
+  </parameter>
+</parameters>
