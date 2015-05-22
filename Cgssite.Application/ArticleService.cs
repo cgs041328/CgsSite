@@ -26,7 +26,7 @@ namespace Cgssite.Application
        public IEnumerable<Article> GetAllArticles(Paging paging)
        {
            //return _articleresposistory.GetAllArticles().Select(x => mapper.Map(x));
-           var result = _articleresposistory.GetAllArticles(paging.PageIndex,paging.PageSize);
+           var result = _articleresposistory.GetAllArticles(paging.PageIndex,paging.PageSize).AsEnumerable();
            var model = new List<Article>();
            foreach (var article in result)
            {

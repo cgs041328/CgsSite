@@ -9,7 +9,7 @@ namespace Cgssite.Infrastructure.Respositories
 {
     public class AriticleRespository : RespositoryBase<Article>, IArticleRespository
     {
-        public IEnumerable<Article> GetAllArticles(int pageIndex, int pageSize)
+        public IQueryable<Article> GetAllArticles(int pageIndex, int pageSize)
         {
             return db.Set<Article>().OrderByDescending(m => m.CreatedDate).Skip((pageIndex - 1) * pageSize).Take(pageSize);
         }
