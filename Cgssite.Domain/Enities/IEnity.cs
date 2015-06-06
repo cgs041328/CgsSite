@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cgssite.Domain.Enities
+namespace CgsSite.Domain.Enities
 {
     ///<summary>
     ///实现该接口的实体类

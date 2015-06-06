@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cgssite.Domain.Enities
+namespace CgsSite.Domain.Enities
 {
    public class AggregateRoot : IAggregateRoot 
     {

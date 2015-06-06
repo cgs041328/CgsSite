@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity.ModelConfiguration;
-using Cgssite.Domain.Enities;
+using CgsSite.Domain.Enities;
 
-namespace Cgssite.Infrastructure.Respositories
+namespace CgsSite.Infrastructure.Respositories
 {
   public class ArticleConfiguration : EntityTypeConfiguration<Article>
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Cgssite.Domain.Enities
+namespace CgsSite.Domain.Enities
 {
     /// <summary>
     /// 声明接口的是聚合根类型

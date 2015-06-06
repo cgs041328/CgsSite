@@ -1,10 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Cgssite.Domain;
-using Cgssite.Application;
-using Cgssite.Infrastructure;
+using CgsSite.Domain;
+using CgsSite.Application;
+using CgsSite.Infrastructure;
 
-namespace Cgssite.UnitTest
+namespace CgsSite.UnitTest
 {
     [TestClass]
     public class UnitTest1

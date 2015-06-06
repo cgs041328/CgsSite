@@ -53,13 +53,13 @@
     <Compile Include="Respositories\AriticleRespository.cs" />
     <Compile Include="Respositories\ArticleConfiguration.cs" />
     <Compile Include="Respositories\CgsContext.cs" />
-    <Compile Include="Respositories\RespositoryBase.cs" />
+    <Compile Include="Respositories\SqlRespositoryBase.cs" />
     <Compile Include="StringExtention.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\cgssite.Domain\Cgssite.Domain.csproj">
+    <ProjectReference Include="..\cgssite.Domain\CgsSite.Domain.csproj">
       <Project>{eced9b83-8a5b-4a58-ba54-0aeeaa6ce35f}</Project>
-      <Name>Cgssite.Domain</Name>
+      <Name>CgsSite.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

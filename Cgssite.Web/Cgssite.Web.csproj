@@ -478,17 +478,17 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Cgssite.Application\Cgssite.Application.csproj">
+    <ProjectReference Include="..\Cgssite.Application\CgsSite.Application.csproj">
       <Project>{b646caa3-a1c2-4754-a87a-2ae2f9d02cac}</Project>
-      <Name>Cgssite.Application</Name>
+      <Name>CgsSite.Application</Name>
     </ProjectReference>
-    <ProjectReference Include="..\cgssite.Domain\Cgssite.Domain.csproj">
+    <ProjectReference Include="..\cgssite.Domain\CgsSite.Domain.csproj">
       <Project>{eced9b83-8a5b-4a58-ba54-0aeeaa6ce35f}</Project>
-      <Name>Cgssite.Domain</Name>
+      <Name>CgsSite.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\cgssite.Infrastructure\Cgssite.Infrastructure.csproj">
+    <ProjectReference Include="..\cgssite.Infrastructure\CgsSite.Infrastructure.csproj">
       <Project>{5e768e0f-08cc-40c4-8571-37f406301e42}</Project>
-      <Name>Cgssite.Infrastructure</Name>
+      <Name>CgsSite.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

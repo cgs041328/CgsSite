@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Cgssite.Domain.IResPositories;
-using Cgssite.Domain.Enities;
+using CgsSite.Domain.IResPositories;
+using CgsSite.Domain.Enities;
 
-namespace Cgssite.Infrastructure.Respositories
+namespace CgsSite.Infrastructure.Respositories
 {
-    public class AriticleRespository : RespositoryBase<Article>, IArticleRespository
+    public class AriticleRespository : SqlRespositoryBase<Article>, IArticleRespository
     {
         public IQueryable<Article> GetAllArticles(int pageIndex, int pageSize)
         {

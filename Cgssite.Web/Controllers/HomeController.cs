@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Cgssite.Web.Controllers
+namespace CgsSite.Web.Controllers
 {
     public class HomeController : Controller
     {

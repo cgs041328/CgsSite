@@ -1,13 +1,13 @@
-﻿using Cgssite.Web.Services;
+﻿using CgsSite.Web.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using Cgssite.Web.Models;
+using CgsSite.Web.Models;
 using System.Web.Security;
 
-namespace Cgssite.Web.Controllers
+namespace CgsSite.Web.Controllers
 {
     public class AccountController : Controller
     {

@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cgssite.Infrastructure", "cgssite.Infrastructure\Cgssite.Infrastructure.csproj", "{5E768E0F-08CC-40C4-8571-37F406301E42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CgsSite.Infrastructure", "cgssite.Infrastructure\CgsSite.Infrastructure.csproj", "{5E768E0F-08CC-40C4-8571-37F406301E42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cgssite.Domain", "cgssite.Domain\Cgssite.Domain.csproj", "{ECED9B83-8A5B-4A58-BA54-0AEEAA6CE35F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CgsSite.Domain", "cgssite.Domain\CgsSite.Domain.csproj", "{ECED9B83-8A5B-4A58-BA54-0AEEAA6CE35F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cgssite.Web", "Cgssite.Web\Cgssite.Web.csproj", "{0E6A02EB-F933-4C47-BE0E-E886A9A911F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CgsSite.Web", "Cgssite.Web\CgsSite.Web.csproj", "{0E6A02EB-F933-4C47-BE0E-E886A9A911F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cgssite.Application", "Cgssite.Application\Cgssite.Application.csproj", "{B646CAA3-A1C2-4754-A87A-2AE2F9D02CAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CgsSite.Application", "Cgssite.Application\CgsSite.Application.csproj", "{B646CAA3-A1C2-4754-A87A-2AE2F9D02CAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cgssite.UnitTest", "Cgssite.UnitTest\Cgssite.UnitTest.csproj", "{B89D7A59-E2D2-49F4-9D21-9816161DD020}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CgsSite.UnitTest", "Cgssite.UnitTest\CgsSite.UnitTest.csproj", "{B89D7A59-E2D2-49F4-9D21-9816161DD020}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{86F8C7A0-D328-4A33-A4F7-49127D4B0035}"
 	ProjectSection(SolutionItems) = preProject

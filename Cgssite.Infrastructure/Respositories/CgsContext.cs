@@ -1,8 +1,8 @@
 ﻿using System.Data.Entity;
-using Cgssite.Domain.Enities;
+using CgsSite.Domain.Enities;
 using System.Data.Entity.Infrastructure;
 
-namespace Cgssite.Infrastructure.Respositories
+namespace CgsSite.Infrastructure.Respositories
 {
    public class CgsContext : DbContext
     {

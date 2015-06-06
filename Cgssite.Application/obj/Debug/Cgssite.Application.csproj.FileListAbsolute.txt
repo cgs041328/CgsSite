@@ -30,3 +30,5 @@ E:\Program Files\cgssite\Cgssite.Application\bin\Debug\EntityFramework.xml
 E:\Program Files\cgssite\Cgssite.Application\obj\Debug\Cgssite.Application.csprojResolveAssemblyReference.cache
 E:\Program Files\cgssite\Cgssite.Application\obj\Debug\Cgssite.Application.dll
 E:\Program Files\cgssite\Cgssite.Application\obj\Debug\Cgssite.Application.pdb
+E:\Program Files\cgssite\Cgssite.Application\obj\Debug\Cgssite.Application.Properties.Resources.resources
+E:\Program Files\cgssite\Cgssite.Application\obj\Debug\Cgssite.Application.csproj.GenerateResource.Cache

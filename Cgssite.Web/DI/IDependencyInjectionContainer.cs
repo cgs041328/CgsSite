@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Cgssite.Web.DI
+namespace CgsSite.Web.DI
 {
     public interface IDependencyInjectionContainer
     {

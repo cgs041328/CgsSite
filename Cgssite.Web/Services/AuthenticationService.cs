@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Security;
 
-namespace Cgssite.Web.Services
+namespace CgsSite.Web.Services
 {
     public class AuthenticationService : IAuthenticationService
     {

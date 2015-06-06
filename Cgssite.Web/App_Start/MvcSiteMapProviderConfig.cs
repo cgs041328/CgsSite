@@ -4,7 +4,7 @@ using System.Web.Routing;
 using MvcSiteMapProvider.Web.Mvc;
 using MvcSiteMapProvider.Loader;
 using MvcSiteMapProvider.Xml;
-using Cgssite.Web.DI;
+using CgsSite.Web.DI;
 
 internal class MvcSiteMapProviderConfig
 {

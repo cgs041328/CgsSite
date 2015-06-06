@@ -1,4 +1,4 @@
-﻿namespace Cgssite.Web.Services
+﻿namespace CgsSite.Web.Services
 {
     public interface IAuthenticationService
     {

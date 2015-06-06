@@ -1,11 +1,11 @@
-﻿using Cgssite.Domain.Enities;
+﻿using CgsSite.Domain.Enities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cgssite.Domain.IResPositories
+namespace CgsSite.Domain.IResPositories
 {
     public interface IArticleRespository
     {

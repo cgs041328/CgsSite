@@ -4,7 +4,7 @@ using System.Linq;
 using Autofac;
 using Autofac.Core;
 
-namespace Cgssite.Web.DI.Autofac
+namespace CgsSite.Web.DI.Autofac
 {
     public class AutofacDependencyInjectionContainer
         : IDependencyInjectionContainer

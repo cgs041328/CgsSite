@@ -2,7 +2,7 @@ using System.Web.Mvc;
 using Autofac;
 using MvcSiteMapProvider.Web.Mvc;
 
-namespace Cgssite.Web.DI.Autofac.Modules
+namespace CgsSite.Web.DI.Autofac.Modules
 {
     public class MvcModule
         : Module

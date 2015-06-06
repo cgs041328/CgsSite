@@ -2,12 +2,12 @@
 using Autofac;
 using Autofac.Integration.Mvc;
 using System.Reflection;
-using Cgssite.Application;
-using Cgssite.Domain;
-using Cgssite.Infrastructure.Respositories;
-using Cgssite.Web.Services;
+using CgsSite.Application;
+using CgsSite.Domain;
+using CgsSite.Infrastructure.Respositories;
+using CgsSite.Web.Services;
 
-namespace Cgssite.Web
+namespace CgsSite.Web
 {
     public class Bootstraper
     {

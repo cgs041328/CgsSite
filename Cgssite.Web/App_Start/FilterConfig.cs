@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace Cgssite.Web
+namespace CgsSite.Web
 {
     public class FilterConfig
     {

@@ -1,14 +1,14 @@
-using Cgssite.Web.DI;
-using Cgssite.Web.DI.Autofac;
-using Cgssite.Web.DI.Autofac.Modules;
+using CgsSite.Web.DI;
+using CgsSite.Web.DI.Autofac;
+using CgsSite.Web.DI.Autofac.Modules;
 using Autofac;
 using Autofac.Core;
 using Autofac.Integration.Mvc;
 using System.Reflection;
-using Cgssite.Application;
-using Cgssite.Domain;
-using Cgssite.Infrastructure.Respositories;
-using Cgssite.Web.Services;
+using CgsSite.Application;
+using CgsSite.Domain;
+using CgsSite.Infrastructure.Respositories;
+using CgsSite.Web.Services;
 
 public class CompositionRoot
 {

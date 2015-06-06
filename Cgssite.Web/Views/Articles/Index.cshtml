@@ -1,11 +1,11 @@
-﻿@model IEnumerable<Cgssite.Web.Models.ListArticleModel>
+﻿@model IEnumerable<CgsSite.Web.Models.ListArticleModel>
 @{
     ViewBag.Title = "另一块砖";
 }
 @foreach (var model in Model)
 {
     <h2>
-        @Html.ActionLink(model.Subject, "Detail", new { id = model.Id })
+        @Html.ActionLink(model.Subject, "Detail", new { id = model.Id,@class="ariticle-subject" })
     </h2>
     @Html.Partial("ArticleHeader", model)
     <p>@Html.Raw(model.Body) @Html.ActionLink("阅读全文", "Detail", new { id = model.Id })</p>

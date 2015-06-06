@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace Cgssite.Web.Models
+namespace CgsSite.Web.Models
 {
     public class LoginModel
     {

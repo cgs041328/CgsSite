@@ -1,7 +1,7 @@
 //#define Dependency
 using System;
 using System.Web.Mvc;
-using Cgssite.Web.DI;
+using CgsSite.Web.DI;
 
 
 [assembly: WebActivatorEx.PostApplicationStartMethod(typeof(DIConfig), "Register")]

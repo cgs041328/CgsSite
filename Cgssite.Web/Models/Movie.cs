@@ -2,7 +2,7 @@
 using System.Data.Entity;
 using System.ComponentModel.DataAnnotations;
 
-namespace Cgssite.Web.Models
+namespace CgsSite.Web.Models
 {
     public class Movie
     {

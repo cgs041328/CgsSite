@@ -1,10 +1,10 @@
-﻿using Cgssite.Domain.IResPositories;
+﻿using CgsSite.Domain.IResPositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Cgssite.Domain.Enities
+namespace CgsSite.Domain.Enities
 {
     public class Article : AggregateRoot
     {

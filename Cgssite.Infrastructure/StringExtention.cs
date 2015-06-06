@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace Cgssite.Infrastructure
+namespace CgsSite.Infrastructure
 {
     public static class StringExtentions
     {

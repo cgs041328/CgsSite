@@ -1,11 +1,11 @@
-﻿using Cgssite.Application.DTO;
+﻿using CgsSite.Application.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Cgssite.Infrastructure;
+using CgsSite.Infrastructure;
 
-namespace Cgssite.Application
+namespace CgsSite.Application
 {
    public interface IArticleService
     {

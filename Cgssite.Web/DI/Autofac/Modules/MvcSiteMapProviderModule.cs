@@ -13,7 +13,7 @@ using MvcSiteMapProvider.Web.Mvc;
 using MvcSiteMapProvider.Web.UrlResolver;
 using MvcSiteMapProvider.Xml;
 
-namespace Cgssite.Web.DI.Autofac.Modules
+namespace CgsSite.Web.DI.Autofac.Modules
 {
     public class MvcSiteMapProviderModule
         : global::Autofac.Module
@@ -31,7 +31,7 @@ namespace Cgssite.Web.DI.Autofac.Modules
 
 
             bool securityTrimmingEnabled = false;
-            string[] includeAssembliesForScan = new string[] { "Cgssite.Web" };
+            string[] includeAssembliesForScan = new string[] { "CgsSite.Web" };
 
 
             var currentAssembly = this.GetType().Assembly;

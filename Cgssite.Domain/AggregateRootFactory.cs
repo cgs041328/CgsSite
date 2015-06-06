@@ -1,12 +1,12 @@
-﻿using Cgssite.Domain.Enities;
+﻿using CgsSite.Domain.Enities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Cgssite.Domain.IResPositories;
+using CgsSite.Domain.IResPositories;
 
-namespace Cgssite.Domain
+namespace CgsSite.Domain
 {
     public static class AggregateRootFactory
     {

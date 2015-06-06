@@ -6,9 +6,9 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using Cgssite.Web.Models;
+using CgsSite.Web.Models;
 
-namespace Cgssite.Web.Controllers
+namespace CgsSite.Web.Controllers
 {
     public class MoviesController : Controller
     {

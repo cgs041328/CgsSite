@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Data.Entity;
 
-namespace Cgssite.Infrastructure.Respositories
+namespace CgsSite.Infrastructure.Respositories
 {
-    public class RespositoryBase<TEntity> where TEntity : class
+    public class SqlRespositoryBase<TEntity> where TEntity : class
     {
         protected CgsContext db = new CgsContext();
         public IEnumerable<TEntity> Get()

@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using Cgssite.Application;
+using CgsSite.Application;
 using EmitMapper;
-using Cgssite.Application.DTO;
-using Cgssite.Web.Models;
-using Cgssite.Infrastructure;
+using CgsSite.Application.DTO;
+using CgsSite.Web.Models;
+using CgsSite.Infrastructure;
 using MvcSiteMapProvider.Web.Mvc.Filters;
 using MvcSiteMapProvider;
 
-namespace Cgssite.Web.Controllers
+namespace CgsSite.Web.Controllers
 {
     public class ArticlesController : Controller
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cgssite.Infrastructure
+namespace CgsSite.Infrastructure
 {
     public class Paging
     {

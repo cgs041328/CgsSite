@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using Cgssite.Application;
+using CgsSite.Application;
 using EmitMapper;
-using Cgssite.Application.DTO;
-using Cgssite.Web.Models;
+using CgsSite.Application.DTO;
+using CgsSite.Web.Models;
 
-namespace Cgssite.Web.Controllers
+namespace CgsSite.Web.Controllers
 {
     [Authorize]
     public class AdminController : Controller

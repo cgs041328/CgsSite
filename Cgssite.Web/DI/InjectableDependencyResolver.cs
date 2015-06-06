@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Web.Routing;
 using System.Web.Mvc;
 
-namespace Cgssite.Web.DI
+namespace CgsSite.Web.DI
 {
     internal class InjectableDependencyResolver
         : IDependencyResolver

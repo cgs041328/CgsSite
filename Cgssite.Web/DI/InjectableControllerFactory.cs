@@ -2,7 +2,7 @@ using System;
 using System.Web.Routing;
 using System.Web.Mvc;
 
-namespace Cgssite.Web.DI
+namespace CgsSite.Web.DI
 {
     internal class InjectableControllerFactory
         : DefaultControllerFactory

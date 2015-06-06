@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cgssite.Application.DTO
+namespace CgsSite.Application.DTO
 {
     public class Article
     {
