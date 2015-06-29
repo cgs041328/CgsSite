@@ -27,3 +27,15 @@ E:\Program Files\cgssite\cgssite.Infrastructure\bin\Debug\EntityFramework.SqlSer
 E:\Program Files\cgssite\cgssite.Infrastructure\obj\Debug\Cgssite.Infrastructure.csprojResolveAssemblyReference.cache
 E:\Program Files\cgssite\cgssite.Infrastructure\obj\Debug\Cgssite.Infrastructure.dll
 E:\Program Files\cgssite\cgssite.Infrastructure\obj\Debug\Cgssite.Infrastructure.pdb
+D:\CgsSite\cgssite.Infrastructure\bin\Debug\Cgssite.Infrastructure.dll.config
+D:\CgsSite\cgssite.Infrastructure\bin\Debug\Cgssite.Infrastructure.dll
+D:\CgsSite\cgssite.Infrastructure\bin\Debug\Cgssite.Infrastructure.pdb
+D:\CgsSite\cgssite.Infrastructure\bin\Debug\Cgssite.Domain.dll
+D:\CgsSite\cgssite.Infrastructure\bin\Debug\EntityFramework.dll
+D:\CgsSite\cgssite.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+D:\CgsSite\cgssite.Infrastructure\bin\Debug\Cgssite.Domain.pdb
+D:\CgsSite\cgssite.Infrastructure\bin\Debug\EntityFramework.xml
+D:\CgsSite\cgssite.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+D:\CgsSite\cgssite.Infrastructure\obj\Debug\CgsSite.Infrastructure.csprojResolveAssemblyReference.cache
+D:\CgsSite\cgssite.Infrastructure\obj\Debug\Cgssite.Infrastructure.dll
+D:\CgsSite\cgssite.Infrastructure\obj\Debug\Cgssite.Infrastructure.pdb

@@ -10,3 +10,15 @@ E:\Program Files\cgssite\cgssite.Infrastructure\bin\Release\EntityFramework.SqlS
 E:\Program Files\cgssite\cgssite.Infrastructure\obj\Release\Cgssite.Infrastructure.csprojResolveAssemblyReference.cache
 E:\Program Files\cgssite\cgssite.Infrastructure\obj\Release\Cgssite.Infrastructure.dll
 E:\Program Files\cgssite\cgssite.Infrastructure\obj\Release\Cgssite.Infrastructure.pdb
+D:\CgsSite\cgssite.Infrastructure\bin\Release\Cgssite.Infrastructure.dll.config
+D:\CgsSite\cgssite.Infrastructure\bin\Release\Cgssite.Infrastructure.dll
+D:\CgsSite\cgssite.Infrastructure\bin\Release\Cgssite.Infrastructure.pdb
+D:\CgsSite\cgssite.Infrastructure\bin\Release\Cgssite.Domain.dll
+D:\CgsSite\cgssite.Infrastructure\bin\Release\EntityFramework.dll
+D:\CgsSite\cgssite.Infrastructure\bin\Release\EntityFramework.SqlServer.dll
+D:\CgsSite\cgssite.Infrastructure\bin\Release\Cgssite.Domain.pdb
+D:\CgsSite\cgssite.Infrastructure\bin\Release\EntityFramework.xml
+D:\CgsSite\cgssite.Infrastructure\bin\Release\EntityFramework.SqlServer.xml
+D:\CgsSite\cgssite.Infrastructure\obj\Release\CgsSite.Infrastructure.csprojResolveAssemblyReference.cache
+D:\CgsSite\cgssite.Infrastructure\obj\Release\Cgssite.Infrastructure.dll
+D:\CgsSite\cgssite.Infrastructure\obj\Release\Cgssite.Infrastructure.pdb

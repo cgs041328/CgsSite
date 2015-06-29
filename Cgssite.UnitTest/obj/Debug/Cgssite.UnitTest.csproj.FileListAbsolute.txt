@@ -80,3 +80,39 @@ E:\Program Files\cgssite\Cgssite.UnitTest\bin\Debug\System.Web.WebPages.Deployme
 E:\Program Files\cgssite\Cgssite.UnitTest\obj\Debug\Cgssite.UnitTest.csprojResolveAssemblyReference.cache
 E:\Program Files\cgssite\Cgssite.UnitTest\obj\Debug\Cgssite.UnitTest.dll
 E:\Program Files\cgssite\Cgssite.UnitTest\obj\Debug\Cgssite.UnitTest.pdb
+D:\CgsSite\Cgssite.UnitTest\obj\Debug\CgsSite.UnitTest.csprojResolveAssemblyReference.cache
+D:\CgsSite\Cgssite.UnitTest\obj\Debug\Cgssite.UnitTest.dll
+D:\CgsSite\Cgssite.UnitTest\obj\Debug\Cgssite.UnitTest.pdb
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\Cgssite.UnitTest.dll.config
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\Cgssite.UnitTest.dll
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\Cgssite.UnitTest.pdb
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\Cgssite.Application.dll
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\Cgssite.Domain.dll
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\Cgssite.Infrastructure.dll
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\Cgssite.Web.dll
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\EmitMapper.dll
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\EntityFramework.dll
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\System.Web.Mvc.dll
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\Autofac.dll
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\System.Web.Optimization.dll
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\WebActivatorEx.dll
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\Autofac.Integration.Mvc.dll
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\MvcSiteMapProvider.dll
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\System.Web.Razor.dll
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\System.Web.WebPages.Razor.dll
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\System.Web.WebPages.dll
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\Cgssite.Application.pdb
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\Cgssite.Domain.pdb
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\Cgssite.Infrastructure.pdb
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\Cgssite.Web.pdb
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\EntityFramework.xml
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\System.Web.Mvc.xml
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\Autofac.xml
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\System.Web.Optimization.xml
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\Autofac.Integration.Mvc.xml
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\MvcSiteMapProvider.xml
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\System.Web.Razor.xml
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\System.Web.WebPages.Razor.xml
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\System.Web.WebPages.xml
+D:\CgsSite\Cgssite.UnitTest\bin\Debug\System.Web.WebPages.Deployment.xml

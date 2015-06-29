@@ -146,14 +146,8 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\ArticlesController.cs" />
-    <Compile Include="Controllers\BooksController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
-    <Compile Include="Controllers\FootprintController.cs" />
-    <Compile Include="Controllers\GamesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\MoviesController.cs" />
-    <Compile Include="Controllers\MusicController.cs" />
-    <Compile Include="Controllers\NowController.cs" />
     <Compile Include="DI\Autofac\AutofacDependencyInjectionContainer.cs" />
     <Compile Include="DI\Autofac\Modules\MvcModule.cs" />
     <Compile Include="DI\Autofac\Modules\MvcSiteMapProviderModule.cs" />
@@ -232,7 +226,9 @@
     <None Include="MvcSiteMapSchema.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Properties\PublishProfiles\cgs - FTP %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\cgs - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\cgs - Web Deploy %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\cgs - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\cgssite.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -417,24 +413,8 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-    <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
-    <Content Include="Views\Manage\ChangePassword.cshtml" />
-    <Content Include="Views\Manage\Index.cshtml" />
-    <Content Include="Views\Manage\ManageLogins.cshtml" />
-    <Content Include="Views\Manage\SetPassword.cshtml" />
-    <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
-    <Content Include="Views\Movies\Create.cshtml" />
-    <Content Include="Views\Movies\Delete.cshtml" />
-    <Content Include="Views\Movies\Details.cshtml" />
-    <Content Include="Views\Movies\Edit.cshtml" />
-    <Content Include="Views\Movies\Index.cshtml" />
-    <Content Include="Views\Musics\Index.cshtml" />
-    <Content Include="Views\Footprint\Index.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
     <Content Include="Views\Articles\Index.cshtml" />
-    <Content Include="Views\Books\Index.cshtml" />
-    <Content Include="Views\Now\Index.cshtml" />
-    <Content Include="Views\Games\Index.cshtml" />
     <Content Include="Views\Home\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_HomeLayout.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />

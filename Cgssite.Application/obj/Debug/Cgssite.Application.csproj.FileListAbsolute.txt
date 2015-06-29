@@ -32,3 +32,17 @@ E:\Program Files\cgssite\Cgssite.Application\obj\Debug\Cgssite.Application.dll
 E:\Program Files\cgssite\Cgssite.Application\obj\Debug\Cgssite.Application.pdb
 E:\Program Files\cgssite\Cgssite.Application\obj\Debug\Cgssite.Application.Properties.Resources.resources
 E:\Program Files\cgssite\Cgssite.Application\obj\Debug\Cgssite.Application.csproj.GenerateResource.Cache
+D:\CgsSite\Cgssite.Application\bin\Debug\Cgssite.Application.dll
+D:\CgsSite\Cgssite.Application\bin\Debug\Cgssite.Application.pdb
+D:\CgsSite\Cgssite.Application\bin\Debug\Cgssite.Domain.dll
+D:\CgsSite\Cgssite.Application\bin\Debug\Cgssite.Infrastructure.dll
+D:\CgsSite\Cgssite.Application\bin\Debug\EmitMapper.dll
+D:\CgsSite\Cgssite.Application\bin\Debug\EntityFramework.dll
+D:\CgsSite\Cgssite.Application\bin\Debug\Cgssite.Domain.pdb
+D:\CgsSite\Cgssite.Application\bin\Debug\Cgssite.Infrastructure.pdb
+D:\CgsSite\Cgssite.Application\bin\Debug\EntityFramework.xml
+D:\CgsSite\Cgssite.Application\obj\Debug\CgsSite.Application.csprojResolveAssemblyReference.cache
+D:\CgsSite\Cgssite.Application\obj\Debug\Cgssite.Application.Properties.Resources.resources
+D:\CgsSite\Cgssite.Application\obj\Debug\CgsSite.Application.csproj.GenerateResource.Cache
+D:\CgsSite\Cgssite.Application\obj\Debug\Cgssite.Application.dll
+D:\CgsSite\Cgssite.Application\obj\Debug\Cgssite.Application.pdb

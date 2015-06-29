@@ -13,3 +13,7 @@ E:\Program Files\cgssite\cgssite.Domain\bin\Debug\Cgssite.Domain.pdb
 E:\Program Files\cgssite\cgssite.Domain\obj\Debug\Cgssite.Domain.dll
 E:\Program Files\cgssite\cgssite.Domain\obj\Debug\Cgssite.Domain.pdb
 E:\Program Files\cgssite\cgssite.Domain\obj\Debug\Cgssite.Domain.csprojResolveAssemblyReference.cache
+D:\CgsSite\cgssite.Domain\bin\Debug\Cgssite.Domain.dll
+D:\CgsSite\cgssite.Domain\bin\Debug\Cgssite.Domain.pdb
+D:\CgsSite\cgssite.Domain\obj\Debug\Cgssite.Domain.dll
+D:\CgsSite\cgssite.Domain\obj\Debug\Cgssite.Domain.pdb

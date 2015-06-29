@@ -2,3 +2,7 @@ E:\Program Files\cgssite\cgssite.Domain\bin\Release\Cgssite.Domain.dll
 E:\Program Files\cgssite\cgssite.Domain\bin\Release\Cgssite.Domain.pdb
 E:\Program Files\cgssite\cgssite.Domain\obj\Release\Cgssite.Domain.dll
 E:\Program Files\cgssite\cgssite.Domain\obj\Release\Cgssite.Domain.pdb
+D:\CgsSite\cgssite.Domain\bin\Release\Cgssite.Domain.dll
+D:\CgsSite\cgssite.Domain\bin\Release\Cgssite.Domain.pdb
+D:\CgsSite\cgssite.Domain\obj\Release\Cgssite.Domain.dll
+D:\CgsSite\cgssite.Domain\obj\Release\Cgssite.Domain.pdb

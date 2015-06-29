@@ -7,10 +7,10 @@ using CgsSite.Infrastructure;
 namespace CgsSite.UnitTest
 {
     [TestClass]
-    public class UnitTest1
+    public class PagingTest
     {
         [TestMethod]
-        public void PagingTest()
+        public void testPaging()
         {
             Paging page1 = new Paging(100);
             Paging page2 = new Paging(100, 10);
